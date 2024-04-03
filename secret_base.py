@@ -1,10 +1,10 @@
-def private_info():
+def private_info() -> dict:
     """
         Account details - see https://octopus.energy/dashboard/developer/
         Do not share these details with others!
         Make sure this file is ignored by Git!
     """
-    private = {
+    private: dict = {
         "api_key": "API_KEY",
         "electric_mpan": MPAN_NUMBER,
         "electric_serial_number": "ELECTRIC_METER_SERIAL_NUMBER",
